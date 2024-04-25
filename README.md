@@ -7,7 +7,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/popovalnik/exchange_rates)
 ![GitHub issues](https://img.shields.io/github/issues/popovalnik/exchange_rates)
 
-![Logotype](./docs/wall.jpg)
+![Logotype](./docs/logo.png)
 
 <!--Установка-->
 ## Установка (Linux)
