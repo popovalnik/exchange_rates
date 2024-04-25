@@ -17,7 +17,7 @@
 
 ```git clone https://github.com/popovalnik/exchange_rates.git```
 
-2. Переход в директорию Oxygen
+2. Переход в директорию exchange_rates
 
 ```cd ```
 
@@ -35,7 +35,7 @@
 
 6. Запуск скрипта для демонстрации возможностей Oxygen
 
-```python3 oxygen.py --help```
+```python3 --help```
 
 <!--Пользовательская документация-->
 ## Документация
@@ -43,7 +43,7 @@
 
 
 ## Демонстрация работы
-[Демо программы]: [перейти на сайт]([./docs/ru/index.md](https://popovalnik.myjino.ru/))
+Демо: [перейти на сайт]([./docs/ru/index.md](https://popovalnik.myjino.ru/))
 
 <!--Поддержка-->
 ## Поддержка
