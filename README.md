@@ -43,7 +43,7 @@
 
 
 ## Демонстрация работы
-[Демо программы]: https://popovalnik.myjino.ru/
+[Демо программы]: [перейти на сайт]([./docs/ru/index.md](https://popovalnik.myjino.ru/))
 
 <!--Поддержка-->
 ## Поддержка
