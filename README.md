@@ -43,7 +43,7 @@
 
 
 ## Демонстрация работы
-Демо: [перейти на сайт]([./docs/ru/index.md](https://popovalnik.myjino.ru/))
+Демо: [перейти на сайт](https://popovalnik.myjino.ru/)
 
 <!--Поддержка-->
 ## Поддержка
