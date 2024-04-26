@@ -25,5 +25,7 @@
 <script src="dist/js/main.js"></script>
 
 </body>
-
+<? 
+$version = "1.0";
+?>
 </html>
