@@ -6,6 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/popovalnik/exchange_rates)
 ![GitHub Repo stars](https://img.shields.io/github/stars/popovalnik/exchange_rates)
 ![GitHub issues](https://img.shields.io/github/issues/popovalnik/exchange_rates)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ![Logotype](./docs/logo.png)
 
