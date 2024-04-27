@@ -41,9 +41,11 @@ $("body").on("click", "#save-val", function () {
 					$.post('heart/php-scripts/filter.php', { selectednumbers, d, d2 }, onSaveEvent);
 					function onSaveEvent(data) {
 						if (data == 0) {
+							$("#spinner").hide();
 							$("#save-json").hide();
 							$("#print-table").html("<div class='p-3'><p class='mt-3'>В базе данных ЦБ РФ нет информации по этой валюте за данный период времени.</p></div>");
 						} else if (data == 1) {
+							$("#spinner").hide();
 							alert("Произошла ошибка, свяжитесь с администратором системы!");
 						} else {
 							$("#save-json").show();
@@ -93,8 +95,10 @@ $("body").on("click", "#save-grafs-val", function () {
 					$.post('heart/php-scripts/filter-grafs.php', { val, d, d2 }, onSaveEvent);
 					function onSaveEvent(data) {
 						if (data == 0) {
+							$("#spinner").hide();
 							$("#print-grafs").html("<div class='p-3'><p class='mt-3'>В базе данных ЦБ РФ нет информации по этой валюте за данный период времени.</p></div>");
 						} else if (data == 1) {
+							$("#spinner").hide();
 							alert("Произошла ошибка, свяжитесь с администратором системы!");
 						} else {
 							$("#spinner").hide();
