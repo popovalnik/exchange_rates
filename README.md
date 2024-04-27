@@ -17,7 +17,7 @@
 <!--Установка-->
 ## Установка (Linux)
 
-У вас должны быть установлены [зависимости проекта](https://github.com/popovalnik/exchange_rates#Зависимости)
+У вас должны быть установлены [зависимости проекта](https://github.com/popovalnik/exchange_rates?tab=readme-ov-file#зависимости).
 
 1. Клонирование репозитория 
 
