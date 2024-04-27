@@ -17,7 +17,6 @@ $("body").on("click", "#clean-grafs-filter", function () {
 
 // Функция для формирования таблицы
 $("body").on("click", "#save-val", function () {
-	$("#spinner").show();
 	var selectednumbers = [];
 	$("[name='valute'] :selected").each(function (i, selected) {
 		selectednumbers[i] = $(selected).val();
@@ -38,6 +37,7 @@ $("body").on("click", "#save-val", function () {
 				if ((today < td) && (today < td2)) {
 					alert("Выбранная дата еще не наступила! Но скоро наступит.");
 				} else {
+					$("#spinner").show();
 					$.post('heart/php-scripts/filter.php', { selectednumbers, d, d2 }, onSaveEvent);
 					function onSaveEvent(data) {
 						if (data == 0) {
@@ -71,7 +71,6 @@ $("body").on("click", "#save-val", function () {
 
 // Функция для формирования графиков
 $("body").on("click", "#save-grafs-val", function () {
-	$("#spinner").show();
 	$("#print-grafs").html("");
 	var val = $("[name='valute']")[0].value;
 	var d = $("[name='date1']")[0].value;
@@ -90,6 +89,7 @@ $("body").on("click", "#save-grafs-val", function () {
 				if ((today < td) && (today < td2)) {
 					alert("Выбранная дата еще не наступила! Но скоро наступит.");
 				} else {
+					$("#spinner").show();
 					$.post('heart/php-scripts/filter-grafs.php', { val, d, d2 }, onSaveEvent);
 					function onSaveEvent(data) {
 						if (data == 0) {
